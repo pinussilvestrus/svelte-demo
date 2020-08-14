@@ -1,6 +1,6 @@
 <script>
-  import AppContainer from './components/AppContainer';
-  import Button from './components/Button';
+  import AppContainer from './AppContainer';
+  import Button from './Button';
 
   import './App.scss';
 
