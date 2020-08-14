@@ -1,0 +1,27 @@
+{
+  "name": "svelte-demo",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "lerna run build -- --silent",
+    "serve": "serve packages",
+    "dev": "run-s build serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pinussilvestrus/svelte-demo.git"
+  },
+  "author": "Niklas Kiefer <niklas.kiefer@camunda.com (https://github.com/pinussilvestrus)>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pinussilvestrus/svelte-demo/issues"
+  },
+  "homepage": "https://github.com/pinussilvestrus/svelte-demo#readme",
+  "devDependencies": {
+    "lerna": "^3.10.7",
+    "npm-run-all": "^4.1.5",
+    "serve": "^11.3.2"
+  }
+}
