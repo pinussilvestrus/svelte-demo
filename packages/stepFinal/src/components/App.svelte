@@ -3,12 +3,14 @@
 
   import './App.scss';
 
+  const noop = () => {};
+
   const handleClick = () => {
     onButtonClick();
   };
 
   export let buttonComponent;
-  export let onButtonClick;
+  export let onButtonClick = noop;
 
 </script>
 

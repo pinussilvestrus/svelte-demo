@@ -3,6 +3,10 @@
 
   import './App.scss';
 
+  const handleClick = () => {
+    onButtonClick();
+  };
+
   export let buttonComponent;
   export let onButtonClick;
 
@@ -12,6 +16,6 @@
   <AppContainer>
     <svelte:component
       this={buttonComponent}
-      onClick={onButtonClick} />
+      onClick={handleClick} />
   </AppContainer>
 </div>
